@@ -17,7 +17,7 @@ Berikut Tools yang perlu diinstal terlebih dahulu sebelum, menjalankan Image Sti
 
 Jika sudah lanjut ke tools yang kedua, dengan perintah berikut
 
-    pip3 opencv-python
+    pip3 install opencv-python
 
 OpenCV memiliki fungsi untuk melakukan penyesuaian geometri,menemukan titik kunci pada gambar yang dapat digunakan dalam proses pencocokan antar gambar.
 
