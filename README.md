@@ -7,6 +7,7 @@ Image Stitching adalah proses menggabungkan beberapa gambar menjadi satu gambar 
    - [Input Image](#Input-Image)
    - [Condingan Python](#Condingan-Python)
    - [Execute the code](#Execute-the-code)
+   - [Output](#Output)
 
 ## Tools Requirements
 Sebelumnya itu pastikan update terlbih dahulu Operating System anda dengan cara `sudo apt update`. 
@@ -26,17 +27,17 @@ OpenCV memiliki fungsi untuk melakukan penyesuaian geometri,menemukan titik kunc
 
    <div align="center">
      <div style="display:flex; flex-wrap:wrap;">
-       <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image-input/image1/IMG_20231116_114126.jpg">
-       <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image-input/image1/IMG_20231116_114129.jpg">
-       <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image-input/image1/IMG_20231116_114132.jpg">
-       <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image-input/image1/IMG_20231116_114134.jpg">
+       <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image-input/image1/IMG_20231116_114126.jpg" alt="1" width="200"/>
+       <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image-input/image1/IMG_20231116_114129.jpg" alt="1" width="200"/>
+       <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image-input/image1/IMG_20231116_114132.jpg" alt="1" width="200"/>
+       <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image-input/image1/IMG_20231116_114134.jpg" alt="1" width="200"/>
      </div>
    </div>
 
 ## Condingan Python
 Buatlah codingan image stitching pyhton dengan OpenCV
 
-    ```py
+```py
     from imutils import paths
     import numpy as np
     import argparse
@@ -69,5 +70,28 @@ Buatlah codingan image stitching pyhton dengan OpenCV
 
     else:
             print("[INFO] image stitching failed ({})".format(status))
-    ```
+            
+```
+## Execute the code
+Step selanjutnya jalankan kodingan pythonya
 
+    python3 <image stitching file> --images <images input direcotry> --output <image output directory>/<output name.png>
+    
+Contohnya
+
+    python3 image_stitching.py --images image-input/image1 --output image-output/image1/output.png
+    
+Jika berhasil akan menghasilkan command seperti ini
+
+ ```
+    [INFO] loading image...
+    [INFO] stitching images...
+    [INFO] Image stitched and saves to image-output/image1/output.png
+```    
+
+## Output
+Output akan menghasilkan seperti dibawah ini
+
+<p align="center">
+  <img src="https://github.com/NauvalPerdana/Image-Stitching-Python/blob/main/image-stitching/image-output/image1/output.png" alt="Your Image Description">
+</p>
