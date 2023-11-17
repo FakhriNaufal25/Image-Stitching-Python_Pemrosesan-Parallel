@@ -93,5 +93,5 @@ Jika berhasil akan menghasilkan command seperti ini
 Output akan menghasilkan seperti dibawah ini
 
 <p align="center">
-  <img src="https://github.com/NauvalPerdana/Image-Stitching-Python/blob/main/image-stitching/image-output/image1/output.png" alt="Your Image Description">
+  <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/output.png" alt="Your Image Description">
 </p>
