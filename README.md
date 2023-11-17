@@ -87,11 +87,12 @@ Jika berhasil akan menghasilkan command seperti ini
     [INFO] loading image...
     [INFO] stitching images...
     [INFO] Image stitched and saves to image-output/image1/output.png
-```    
+```
+![Output](
 
 ## Output
 Output akan menghasilkan seperti dibawah ini
 
 <p align="center">
-  <img src="https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/output.png" alt="Your Image Description">
+  <img src="(https://github.com/FakhriNaufal25/Image-Stitching-Python_Pemrosesan-Parallel/blob/main/Image%20Stitching%20Python/image%20stitching%20output.png)" alt="Your Image Description">
 </p>
