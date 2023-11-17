@@ -36,7 +36,7 @@ OpenCV memiliki fungsi untuk melakukan penyesuaian geometri,menemukan titik kunc
 ## Condingan Python
 Buatlah codingan image stitching pyhton dengan OpenCV
 
-    ```
+    ```py
     from imutils import paths
     import numpy as np
     import argparse
